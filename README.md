@@ -2,11 +2,15 @@
 # RISC-V 5 Stage Pipelined In-Order Processor
 
 This is the repository for a 5-stage, pipelined, synthesizable, RISC-V
-processor. This pipeline supports a subset of RISC-V assembly instructions,
+processor. This pipeline supports a RV32 subset of RISC-V assembly instructions,
 with potential future improvements of fully supporting every RISC-V instructions.
 
 This pipeline also supports structural & control hazard management, data forwarding logic, 
 and data hazard management.
+
+An overview of the 5-stage pipelined processor:
+
+![pipeline](images/five_stage.png)
 
 
 ### Project Files
